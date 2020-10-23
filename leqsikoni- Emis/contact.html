@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+    <link rel="stylesheet" href="./Scss/style.css">
+    <link rel="stylesheet" href="./Scss/_responsive.scss">
+    <title>ლექსიკონი</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar is-transparent " role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <div class="navbar-end is-mobile">
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link is-arrowless is-relative">
+                            <div class="fi user has-text-warning is-flex is-justify-center is-align-end"></div>
+                        </a>
+                        <div class="navbar-dropdown">
+                            <a href="./" class="navbar-item">
+                                რედაქტირება
+                            </a>
+                            <a class="navbar-item">
+                                ჩემი სიტყვები
+                            </a>
+                            <a class="navbar-item">
+                                გამოსვლა
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <a class="navbar-item" href="#">
+                    <img src="./img/logo.svg" width="112" height="28">
+                </a>
+
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a href="main-page.html" class="navbar-item px-6">
+                        <span class="is-relative">მთავარი</span>
+                    </a>
+                    <a href="about-project.html" class="navbar-item px-6 ">
+                        <span class="is-relative">პროექტის შესახებ</span>
+                    </a>
+                    <a href="contact.html" class="navbar-item px-6 is-active">
+                        <span class="is-relative">კონტაქტი</span>
+                    </a>
+                </div>
+
+                <div class="navbar-end">
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link is-arrowless is-relative">
+                            <div class="fi user has-text-warning is-flex is-justify-center is-align-end"></div>
+                        </a>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item">
+                                რედაქტირება
+                            </a>
+                            <a class="navbar-item">
+                                ჩემი სიტყვები
+                            </a>
+                            <a class="navbar-item">
+                                გამოსვლა
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container section contact">
+        <div class="columns is-centered is-mobile">
+            <div class="column is-6-widescreen is-7-desktop is-8-tablet is-12-mobile mt-4 is-relative">
+                <!-- img -->
+                <div class="contact_image-box-1 is-absolute">
+                    <figure class="image is-64x64">
+                        <img src="./img/fly.svg" alt="fly">
+                    </figure>
+                </div>
+                <!-- card -->
+                <div class="card px-5">
+                    <div class="card-header-title">
+                        <h1 class="title has-text-primary is-size-4 has-text-weight-light mt-6 mb-5">კონტაქტი</h1>
+                    </div>
+
+                    <div class="card-content is-family-secondary pb-6">
+                        <div class="content mb-2">Adresse : IMPACT, Chaussée de Vleurgat 195, 1050 Ixelles</div>
+                        <div class="content mb-2">Tél. Machin : +32 484 26 26 26</div>
+                        <div class="content mb-2"> Tél. Truc : +32 484 26 26 26</div>
+                        <div class="content pb-5">
+                            Mail : <a href="#" class="text-decoration-underline has-text-primary"> info@impact.org</a>
+                        </div>
+                        <div class="content mb-2"> IBAN : BE 32 484 26 77 94 </div>
+                        <div class="content mb-2">BIC : BE 32 484 26 77 94</div>
+                    </div>
+                </div>
+                <!-- img -->
+                <div class="contact_image-box-2 is-absolute">
+                    <figure class="image is-256x256">
+                        <img src="./img/lighthouse.svg" alt="lighthouse">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- soc footer -->
+    <footer class="footer">
+        <div class="content has-text-centered ">
+            <div class="columns is-centered is-mobile">
+                <div class="column is-one-fifth-desktop is-one-quarter-tablet is-three-fifths-mobile">
+                    <div class="is-flex is-justify-around">
+                        <a class="button is-rounded has-text-primary">
+                            <i class="fi fb"></i>
+                        </a>
+                        <a class="button is-rounded has-text-primary">
+                            <i class="fi tw"></i>
+                        </a>
+                        <a class="button is-rounded has-text-primary">
+                            <i class="fi in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
